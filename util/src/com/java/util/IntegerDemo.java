@@ -18,6 +18,7 @@ public class IntegerDemo {
     //编写代码将num转换成radix进制
     private static String convert(int num, int radix){
         StringBuffer stringBuffer = new StringBuffer();
+        //当被除数不等于0
                 while(num !=0){
                     //定义remainder为余数
                     int remainder = num % radix;
