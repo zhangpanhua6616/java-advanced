@@ -2,6 +2,7 @@ package com.java.util;
 
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class NBAListTest {
@@ -19,5 +20,15 @@ public class NBAListTest {
                     +nbaList.get(i).getLanban()+ "       "+nbaList.get(i).getZhugong());
             System.out.println();
         }
- }
+
+
+        System.out.println("用Iterator迭代器输出结果");
+        Iterator<NBA> iterator = nbaList.iterator();
+        while (iterator.hasNext()){
+            NBA nba = iterator.next();
+            System.out.println(nba.getQiuyuan()+" " +nba.getChuohao());
+        }
+        System.out.println("Lambda表达式输出结果");
+        nbaList.forEach(nba -> System.out.println(nba.getQiuyuan()+" " + nba.getChuohao()));
+    }
 }
