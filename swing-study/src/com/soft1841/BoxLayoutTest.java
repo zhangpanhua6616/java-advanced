@@ -26,6 +26,8 @@ public class BoxLayoutTest extends JFrame {
         JPanel topJPane = new JPanel();
         //对topPanel进行水平方向排列的BoxLayout布局
         BoxLayout boxLayout = new BoxLayout(topJPane, BoxLayout.X_AXIS);
+        topJPane.setLayout(boxLayout);
+        //topJPane设置背景色和合适的大小
         topJPane.setBackground(new Color(255,127,0));
         topJPane.setPreferredSize(new Dimension(414, 100));
         //左侧按钮
