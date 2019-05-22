@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/design-patten/design-patten.iml" filepath="$PROJECT_DIR$/design-patten/design-patten.iml" />
       <module fileurl="file://$PROJECT_DIR$/gui-form/gui-form.iml" filepath="$PROJECT_DIR$/gui-form/gui-form.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbc-study/jdbc-study.iml" filepath="$PROJECT_DIR$/jdbc-study/jdbc-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/socket-study/socket-study.iml" filepath="$PROJECT_DIR$/socket-study/socket-study.iml" />
